@@ -3,21 +3,26 @@ name: stacked_container
 workspace:
   stacked:
     node1:
-      - i3-sensible-nodeinal
+      - i3-sensible-terminal
     node2:
-      - i3-sensible-nodeinal
-    hsplit:
-      node3:
-        - i3-sensible-nodeinal
-      node4:
-        - i3-sensible-nodeinal
-    tabbed:
-      node5:
-        - i3-sensible-nodeinal
-      node6:
-        - i3-sensible-nodeinal
+      - i3-sensible-terminal
     vsplit:
+      node3:
+        - i3-sensible-terminal
+      node4:
+        - i3-sensible-terminal
+    hsplit:
+      node5:
+        - i3-sensible-terminal
+      node6:
+        - i3-sensible-terminal
+    stacked:
       node7:
-        - i3-sensible-nodeinal
+        - i3-sensible-terminal
       node8:
-        - i3-sensible-nodeinal
+        - i3-sensible-terminal
+    tabbed:
+      node9:
+        - i3-sensible-terminal
+      node10:
+        - i3-sensible-terminal
