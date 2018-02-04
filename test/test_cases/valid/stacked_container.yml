@@ -1,0 +1,23 @@
+name: stacked_container
+
+workspace:
+  stacked:
+    node1:
+      - i3-sensible-nodeinal
+    node2:
+      - i3-sensible-nodeinal
+    hsplit:
+      node3:
+        - i3-sensible-nodeinal
+      node4:
+        - i3-sensible-nodeinal
+    tabbed:
+      node5:
+        - i3-sensible-nodeinal
+      node6:
+        - i3-sensible-nodeinal
+    vsplit:
+      node7:
+        - i3-sensible-nodeinal
+      node8:
+        - i3-sensible-nodeinal

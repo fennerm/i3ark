@@ -1,0 +1,23 @@
+name: hsplit_container
+
+workspace:
+  hsplit:
+    node1:
+      - i3-sensible-terminal
+    node2:
+      - i3-sensible-terminal
+    vsplit:
+      node3:
+        - i3-sensible-terminal
+      node4:
+        - i3-sensible-terminal
+    stacked:
+      node5:
+        - i3-sensible-terminal
+      node6:
+        - i3-sensible-terminal
+    tabbed:
+      node7:
+        - i3-sensible-terminal
+      node8:
+        - i3-sensible-terminal

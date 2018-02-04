@@ -1,0 +1,120 @@
+{
+    "layout": "splith",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "name": "term1",
+            "percent": 0.25,
+            "type": "con",
+            "swallows": [
+                {
+                    "instance": "^term1$"
+                }
+            ]
+        
+        },
+        {
+            "name": "term2",
+            "percent": 0.25,
+            "type": "con",
+            "swallows": [
+                {
+                    "instance": "^term2$"
+                }
+            ]
+        },
+        {
+            "layout": "splitv",
+            "percent": 0.25,
+            "type": "con",
+            "nodes": [
+                {
+                    "name": "term3",
+                    "percent": 0.5,
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "instance": "^term3$"
+                        }
+                    ]
+                
+                },
+                {
+                    "name":"term4",
+                    "percent": 0.5,
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "instance": "^term4$"
+                        }
+                    
+                    ]
+                
+                }
+            
+            ]
+        },
+        {
+            "layout": "stacked",
+            "percent": 0.25,
+            "type": "con",
+            "nodes": [
+                {
+                    "name": "term5",
+                    "percent": 0.5,
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "instance": "^term5$"
+                        
+                        }
+                    
+                    ]
+                },
+                {
+                    "name": "term6",
+                    "percent": 0.5,
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "instance": "^term6$"
+                        
+                        }
+                    
+                    ]
+                
+                }
+            
+            ]
+        
+        },
+        {
+            "layout": "tabbed",
+            "percent": 0.25,
+            "type": "con",
+            "nodes": [
+                {
+                    "name": "term7",
+                    "percent": 0.5,
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "instance": "^term7$"
+                        }
+                    ]
+                },
+                {
+                    "name": "term8",
+                    "percent": 0.5,
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "instance": "^term8$"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
